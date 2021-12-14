@@ -11,7 +11,8 @@
     "sequelize": "^6.12.0-beta.1"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "jest"
   },
   "name": "node.js",
   "version": "1.0.0",
@@ -26,5 +27,8 @@
     "url": "https://github.com/candre02/just-tech-news/issues"
   },
   "homepage": "https://github.com/candre02/just-tech-news#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "jest": "^27.4.5"
+  }
 }
